@@ -1,0 +1,83 @@
+﻿body 
+{
+width: 800px;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:30px;
+margin-right:15px;
+color: #330033;
+font-family: Verdana, 'Times New Roman' ,Serif;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+h2{
+    text-decoration:underline;
+    font-size: 24px;
+}
+ul {
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: #CCFFCC;
+}
+ul li.answer a:hover {
+    color:       red;
+    font-weight: bold;
+}
+ol{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: #FFCC99;
+}
+ol li.answer a:hover{
+    color:       red;
+    font-weight: bold;
+}
+p {
+    margin-top:     10px;
+    margin-bottom:  10px;
+    text-align:     justify;
+    font-size:      18;
+}
+.content {
+    color:green;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Arial, Helvetica, 'sans-serif';
+}
+
+ul.menu {
+        list-style-type:none;
+    }
+    ul.menu li {
+        zoom:50%;
+        float:right
+    }
+    ul.menu li a {
+        height: inherit;
+        
+        display: inline-block; 
+    }
+    ul.menu li.mercedes a:hover {
+        background-position: -10px -670px;
+
+    }
+    ul.menu li.bmw a:hover {
+        background-position: 0px -230px;
+    }
+    ul.menu li.mercedes a {
+         width: 200px; height: 200px;
+         margin-top:-300px;
+         background: url("css_sprites.png") -10px -450px;  no-repeat;
+    }
+    ul.menu li.bmw a {
+         width: 200px; height: 200px;
+         margin-top:-10px;
+         background: url("css_sprites.png") -10px -10px; no-repeat; 
+    }
